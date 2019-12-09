@@ -80,32 +80,32 @@
 }
 
 #dice.dice1 {
-  background-image: url("../assets/images/diceone.svg");
+  background-image: url("../images/diceone.svg");
   background-repeat: no-repeat;
 }
 
 #dice.dice2 {
-  background-image: url("../assets/images/dicetwo.svg");
+  background-image: url("../images/dicetwo.svg");
   background-repeat: no-repeat;
 }
 
 #dice.dice3 {
-  background-image: url("../assets/images/dicethree.svg");
+  background-image: url("../images/dicethree.svg");
   background-repeat: no-repeat;
 }
 
 #dice.dice4 {
-  background-image: url("../assets/images/dicefour.svg");
+  background-image: url("../images/dicefour.svg");
   background-repeat: no-repeat;
 }
 
 #dice.dice5 {
-  background-image: url("../assets/images/dicefive.svg");
+  background-image: url("../images/dicefive.svg");
   background-repeat: no-repeat;
 }
 
 #dice.dice6 {
-  background-image: url("../assets/images/dicesix.svg");
+  background-image: url("../images/dicesix.svg");
   background-repeat: no-repeat;
 }
 
