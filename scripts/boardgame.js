@@ -36,7 +36,7 @@ dice.addEventListener("click", function() {
     this.classList.add(diceClass);
 
     // we set the innerHTML of the button to what the random number is
-    this.innerHTML = diceRoll;
+    this.innerHTML = "";
 
 });
 
