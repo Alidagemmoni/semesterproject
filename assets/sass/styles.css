@@ -15,6 +15,8 @@
   margin: 0px auto;
   line-height: 1.8;
   font-size: 50px;
+  font-family: trajan-color, serif;
+  color: #FFDA23;
 }
 
 /* variables for colors*/
@@ -199,7 +201,8 @@
 }
 
 body {
-  background-image: url("../images/bg1.jpg");
-  background-size: contain;
+  background-image: url("../images/ice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=styles.css.map */
