@@ -13,15 +13,25 @@
 </head>
 
 <body>
-    <div class="header">
-        <img src="assets/images/logo.svg" height="200" width="200"
-            alt="Blue sigil banner with a gold crown and 2 swords crossing">
-        <div>
-            <h1 class="headerText">Game of Swords</h1>
-            <h2 class="headerText"></h2>
+     <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.svg" width="200" height="200" class="d-inline-block align-top header" alt="Blue sigil banner with a gold crown and 2 swords crossing">
+        </a>
+        <h1 class="navbar-brand headerText">Game of Swords</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-right navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="navigation" href="index.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navigation" href="boardgame.html">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navigation" href="index.html">End game</a>
+                </li>
+                </ul>
         </div>
-    </div>
-
+    </nav>
     <div id="characterDisplay"></div>
 
     <div id="characterScoreDisplay"></div>

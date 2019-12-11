@@ -19,6 +19,12 @@
   color: #FFDA23;
 }
 
+.navigation {
+  background-color: #EAE6D8;
+  color: #07266B;
+  margin: 5px;
+}
+
 /* variables for colors*/
 /*import fonts*/
 .card {
@@ -49,8 +55,15 @@
   font-size: 30px;
 }
 
-.startButton {
+#startButton {
   text-align: right;
+  background-color: #07266B;
+}
+
+.btn {
+  background-color: #07266B;
+  border-radius: 20px;
+  color: #EAE6D8;
 }
 
 .boardGameImage {
