@@ -13,23 +13,25 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">
-            <img src="assets/images/logo.svg" width="200" height="200" class="d-inline-block align-top header" alt="Blue sigil banner with a gold crown and 2 swords crossing">
-        </a>
-        <h1 class="navbar-brand headerText">Game of Swords</h1>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-right navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="navigation" href="index.html">Characters</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navigation" href="boardgame.html">Game</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navigation" href="index.html">End game</a>
+        <div class="nav-container">
+            <div class="navbar-brand">
+                <img src="assets/images/logo.svg" width="200" height="200" class="d-inline-block align-top header-logo" alt="Blue sigil banner with a gold crown and 2 swords crossing">
+            </div>
+            <h1 class="navbar-brand headerText">Game of Swords</h1>
+            <div class="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
+                <ul class="nav navbar-right navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="navigation" href="index.html">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navigation" href="boardgame.html">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navigation" href="index.html">End game</a>
                     </li>
                 </ul>
-        </div>
+            </div>
+        </div>  
     </nav>
     <div id="selectedPlayer" class="selected-player">Choose your character</div>
     <div class="row selection-container">
@@ -39,7 +41,7 @@
             <div class="card__details">
             </div>
             <div id="johnSnow"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Theon" data-id="2">
             <h3>Theon Greyjoy</h3>
@@ -47,7 +49,7 @@
             <div class="card__details">
             </div>
             <div id="theon"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Nymeria" data-id="3">
             <h3>Nymeria Sand</h3>
@@ -55,7 +57,7 @@
             <div class="card__details">
             </div>
             <div id="nymeria"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Tormund" data-id="4">
             <h3>Tormund</h3>
@@ -63,7 +65,7 @@
             <div class="card__details">
             </div>
             <div id="tormund"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Daenerys" data-id="5">
             <h3>Daenerys</h3>
@@ -71,7 +73,7 @@
             <div class="card__details">
             </div>
             <div id="daenerys"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
     </div>
     <div class="row selection-container">
@@ -81,7 +83,7 @@
             <div class="card__details">
             </div>
             <div id="aryaStark"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Yara" data-id="7">
             <h3>Yara Greyjoy</h3>
@@ -89,7 +91,7 @@
             <div class="card__details">
             </div>
             <div id="asha"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Obara" data-id="8">
             <h3>Obara Sand</h3>
@@ -97,7 +99,7 @@
             <div class="card__details">
             </div>
             <div id="obara"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Ygritte" data-id="9">
             <h3>Ygritte</h3>
@@ -105,7 +107,7 @@
             <div class="card__details">
             </div>
             <div id="ygritte"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
         <div class="player card character col-md-2" data-name="Rhaegar" data-id="10">
             <h3>Rhaegar</h3>
@@ -113,10 +115,10 @@
             <div class="card__details">
             </div>
             <div id="rhaegar"></div>
-            <button type="button" class="btn btn-primary">Choose</button>
+            <button type="button" class="btn">Choose</button>
         </div>
     </div>
-    <button id="startButton" disabled>Start</button>
+    <button id="startButton" disabled>Start game</button>
     <!--jquery and JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
