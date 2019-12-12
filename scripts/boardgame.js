@@ -23,20 +23,21 @@ dice.addEventListener("click", function() {
 
     var diceRoll = Math.floor(Math.random() * 6) + 1;
 
-    updateScore(diceRoll);
-    moveToken();
+    var that = this;
 
     // create a class for the dice
     var diceClass = "dice" + diceRoll;
 
     // clear all classes on the dice
     this.classList = ""
+    this.innerHTML = "Rolling...";
 
-    // add the dice class
-    this.classList.add(diceClass);
-
-    // we set the innerHTML of the button to what the random number is
-    this.innerHTML = "";
+    setTimeout(function() {
+        updateScore(diceRoll);
+        moveToken();
+        that.classList.add(diceClass);
+        that.innerHTML = "";
+    }, 1500);
 
 });
 

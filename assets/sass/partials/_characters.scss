@@ -39,6 +39,11 @@
     height: 50px;
 }
 
+#startButton:disabled {
+    background-color: #ccc;
+    opacity: 0.8;
+}
+
 .btn {
     background-color: #07266B;
     border-radius: 20px;

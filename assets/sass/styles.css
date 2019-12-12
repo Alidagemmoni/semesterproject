@@ -90,6 +90,11 @@
   height: 50px;
 }
 
+#startButton:disabled {
+  background-color: #ccc;
+  opacity: 0.8;
+}
+
 .btn {
   background-color: #07266B;
   border-radius: 20px;
@@ -123,9 +128,6 @@
 }
 
 #dice {
-  border: 2px solid #000000;
-  background-color: #375429;
-  border-radius: 8px;
   width: 100px;
   height: 100px;
   margin: 10px auto 0 auto;
@@ -136,43 +138,46 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+#dice:focus {
+  outline: none;
 }
 
 #dice.rolling {
-  color: #EAE6D8;
-  border: 4px solid;
-  background-color: #375429;
   font-size: 10px;
+  background-repeat: no-repeat;
+}
+
+#dice.start {
+  background-image: url("../images/startdice.svg");
 }
 
 #dice.dice1 {
   background-image: url("../images/diceone.svg");
-  background-repeat: no-repeat;
 }
 
 #dice.dice2 {
   background-image: url("../images/dicetwo.svg");
-  background-repeat: no-repeat;
 }
 
 #dice.dice3 {
   background-image: url("../images/dicethree.svg");
-  background-repeat: no-repeat;
 }
 
 #dice.dice4 {
   background-image: url("../images/dicefour.svg");
-  background-repeat: no-repeat;
 }
 
 #dice.dice5 {
   background-image: url("../images/dicefive.svg");
-  background-repeat: no-repeat;
 }
 
 #dice.dice6 {
   background-image: url("../images/dicesix.svg");
-  background-repeat: no-repeat;
 }
 
 .flex-container {
