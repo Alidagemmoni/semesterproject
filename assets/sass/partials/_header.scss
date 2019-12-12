@@ -19,10 +19,7 @@
     margin-left: 100px;
 }
 
-.navbar-links {
-    margin-left: 100px;
-}
-
+//Navigation buttons
 .navigation:hover {
     box-shadow: 0 0px 15px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
 }
@@ -30,5 +27,6 @@
 .navigation {
     background-color: #EAE6D8;
     color: #07266B;
-    margin: 5px;
+    border-style: none;
+    text-decoration: none;
 }
