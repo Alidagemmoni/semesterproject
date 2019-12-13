@@ -85,12 +85,12 @@ function moveToken() {
     // get the tile that has an id that is the current score
     var theTile = document.getElementById(characterScore);
 
-    // create teh token
+    // create the token
     var tokenOne = document.createElement("div");
     tokenOne.classList.add("token", characterClass);
     tokenOne.id = "token";
 
-    // add the token to the tiel
+    // add the token to the tile
     theTile.appendChild(tokenOne);
 
     // if the score is equal to the last tile the game is won
