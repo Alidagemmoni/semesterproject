@@ -5,6 +5,10 @@
     padding: 5px;
     text-align: center;
     margin-right: 10px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8;
 }
 
 .player {
@@ -28,7 +32,7 @@
     font-size: 25px;
     color: #9CBCD9;
     font-size: 40px;
-    font-family: trajan-color, serif;
+    font-family: 'trajan-color', serif;
 }
 
 #startButton {
@@ -42,6 +46,9 @@
     width: 35%;
     height: 50px;
     margin-bottom: 20px;
+    font-family:'Lato', sans-serif;
+    font-style: bold;
+    font-weight: 700;
 }
 
 #startButton:disabled {
@@ -53,6 +60,9 @@
     background-color: #07266B;
     border-radius: 20px;
     color: #EAE6D8;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    font-weight: 700;
 }
 
 .btn:hover {
