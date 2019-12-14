@@ -48,6 +48,10 @@
   margin-right: 10px;
 }
 
+.player {
+  max-width: 30%;
+}
+
 .player:hover {
   -webkit-box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -104,7 +108,7 @@
 }
 
 .boardGameImage {
-  width: 40%;
+  max-width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,5 +299,20 @@ body {
   color: #9CBCD9;
   font-size: 40px;
   font-family: trajan-color, serif;
+}
+
+.won-the-game {
+  color: white;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 80vh;
+  text-align: center;
+}
+
+.winner-text {
+  background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: 0 auto;
+  padding: 2em;
 }
 /*# sourceMappingURL=styles.css.map */
