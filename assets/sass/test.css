@@ -1,0 +1,45 @@
+.nav-container {
+    display: flex;
+    margin-bottom: 50px;
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerText {
+    margin-left: 0;
+}
+
+
+.header-logo {
+    width: 150px;
+    margin-left: 0;
+}
+
+@media (max-width: 768px) {
+
+    .header-logo {
+        width: 80px;
+    }
+
+    .headerText {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .header-logo {
+        width: 40px;
+    }
+
+    .headerText {
+        font-size: 16px;
+    }
+
+    .start-again {
+        font-size: 14px;
+    }
+}
