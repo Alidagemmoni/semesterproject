@@ -1,12 +1,15 @@
-.nav-container {
+.center {
     display: flex;
-    margin-bottom: 50px;
-    max-width: 1100px;
-    border: 1px solid red;
+    margin: 0px auto;
+    display: inline-block;
+}
+
+.left {
+    width: 100%;
+    margin-right: 130px;
 }
 
 .header-logo {
-    // margin-left: 100px;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -42,9 +45,64 @@
     color: #9CBCD9;
 }
 
+//Winner-header
+.nav-container {
+    display: flex;
+    margin-bottom: 50px;
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerText {
+    margin-left: 0;
+}
+
+.header-logo {
+    width: 150px;
+    margin-left: 0;
+}
+
+//@media
+@media (max-width: 768px) {
+    .header-logo {
+        width: 80px;
+    }
+
+    .selected-player {
+        text-align: center;
+    }
+
+    .headerText {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header-logo {
+        width: 40px;
+    }
+
+    .headerText {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .start-again {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 768px) {
     .headerText {
         font-size: 30px;;
         margin-left: 0;
     }
+    
 }
+

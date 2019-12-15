@@ -12,19 +12,19 @@
     </head>
     <body>
         <div class="header nav-container">
-            <img src="assets/images/logo.svg" class="d-inline-block align-top header-logo" alt="Blue sigil banner with a gold crown and 2 swords crossing">
+            <img src="assets/images/logo.svg" height="200" width="200" class="d-inline-block align-top header-logo" alt="Blue sigil banner with a gold crown and 2 swords crossing">
             <h1 class="headerText">CONGRATULATIONS</h1>
             <button><a class="navigation start-again" href="index.html">Start new game</a></button>
         </div>
         <div class="won-the-game">
+            <div class="winner-text">The winner is</div>
+            <canvas id="scene"></canvas>
             <span id="player" class="player-display"></span>
-            <div class="winner-text">won Game of Swords</div>
         </div>
-
         <!--jquery and JS-->
-        <script src="scripts/winner.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="scripts/winner.js" type="text/javascript"></script>
     </body>
     <footer>Copyright &copy; 2018</footer>
 </html>
