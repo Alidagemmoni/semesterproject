@@ -51,15 +51,12 @@ getCharacter(2024, "tormund", "image-name");
 getCharacter(1022, "theon", "image-name");
 getCharacter(150, "asha", "image-name");
 
-
-
 //Selection page/Index
 var player = null;
 var selectedPlayer = document.getElementById("selectedPlayer");
 var startButton = document.getElementById("startButton");
 
 console.log("playButton", startButton);
-
 
 //Click event on class="characters"
 const characters = document.querySelectorAll(".character");
