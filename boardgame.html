@@ -8,24 +8,20 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/hea5ixl.css">
     <link href="assets/sass/styles.css" type="text/css" rel="stylesheet">
 </head>
-
-<body>
-    <div class="header">
-        <img src="assets/images/logo.svg" height="200" width="200"
-            alt="Blue sigil banner with a gold crown and 2 swords crossing">
-        <div>
-            <h1 class="headerText">Game of Swords</h1>
-            <h2 class="headerText"></h2>
-        </div>
-    </div>
-
+<body> 
+    <div class="header nav-container">
+        <img src="assets/images/logo.svg" class="d-inline-block align-top header-logo" alt="Blue sigil banner with a gold crown and 2 swords crossing">
+        <h1 class="headerText">Game of Swords</h1>
+        <button><a class="navigation start-again" href="index.html">Choose new character</a></button>
+    </div> 
     <div id="characterDisplay"></div>
 
     <div id="characterScoreDisplay"></div>
 
-    <button id="dice">Dice</button>
+    <button id="dice" class="start"></button>
 
     <div class="background-image">
         <div class="flex-container container">
@@ -76,13 +72,6 @@
             <div class="flex-item tile square" id="16">16</div>
         </div>
     </div>
-         <!--Buttons for play, pause, end game-->
-        <div class="buttons">
-            <buttton type="button" class="btn btn-outline-light pause"><img src="assets/images/buttonpause.svg" class="boardGameImage" height="50" width="50" alt="">Pause game</buttton>
-            <buttton type="button" class="btn btn-outline-light play"><img src="assets/images/buttonplay.svg" class="boardGameImage" height="50" width="50" alt="">Play game</buttton>
-            <buttton type="button" class="btn btn-outline-light stop"><img src="assets/images/buttonstop.svg" class="boardGameImage" height="50" width="50" alt="">Stop game</buttton>
-        </div>
-
     <!--jquery and JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

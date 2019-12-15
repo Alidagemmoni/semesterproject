@@ -23,20 +23,21 @@ dice.addEventListener("click", function() {
 
     var diceRoll = Math.floor(Math.random() * 6) + 1;
 
-    updateScore(diceRoll);
-    moveToken();
+    var that = this;
 
     // create a class for the dice
     var diceClass = "dice" + diceRoll;
 
     // clear all classes on the dice
     this.classList = ""
+    this.innerHTML = "Rolling...";
 
-    // add the dice class
-    this.classList.add(diceClass);
-
-    // we set the innerHTML of the button to what the random number is
-    this.innerHTML = diceRoll;
+    setTimeout(function() {
+        updateScore(diceRoll);
+        moveToken();
+        that.classList.add(diceClass);
+        that.innerHTML = "";
+    }, 1500);
 
 });
 
@@ -84,12 +85,12 @@ function moveToken() {
     // get the tile that has an id that is the current score
     var theTile = document.getElementById(characterScore);
 
-    // create teh token
+    // create the token
     var tokenOne = document.createElement("div");
     tokenOne.classList.add("token", characterClass);
     tokenOne.id = "token";
 
-    // add the token to the tiel
+    // add the token to the tile
     theTile.appendChild(tokenOne);
 
     // if the score is equal to the last tile the game is won

@@ -5,9 +5,62 @@
     padding: 5px;
     text-align: center;
     margin-right: 10px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8;
+}
+
+.player:hover {
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
 }
 
 .right {
     float: right;
     margin: 20px;
+}
+
+#selectedPlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    font-size: 25px;
+    color: #9CBCD9;
+    font-size: 40px;
+    font-family: 'trajan-color', serif;
+}
+
+#startButton {
+    margin: auto;
+    display: block;
+    background-color: #07266B;
+    color: #EAE6D8;
+    border-radius: 20px;
+    font-size: 30px;
+    border-style: none;
+    width: 35%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-family:'Lato', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+#startButton:disabled {
+    background-color: #ccc;
+    opacity: 0.8;
+}
+
+.btn {
+    background-color: #07266B;
+    border-radius: 20px;
+    color: #EAE6D8;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #9CBCD9;
 }
